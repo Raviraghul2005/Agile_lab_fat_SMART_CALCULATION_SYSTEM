@@ -24,4 +24,13 @@ public class App {
 
         return tariff;
     }
+
+    public static void main(String[] args) {
+
+        App app = new App();
+
+        double bill = app.calculateBill(10, true, 8);
+
+        System.out.println("Electricity Bill = " + bill);
+    }
 }
